@@ -1,0 +1,223 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+
+BS_:
+
+BU_: NLG5 Control
+
+
+BO_ 1556 NLG5_ERR: 5 NLG5
+ SG_ NLG5_W_PL_MV : 39|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_W_PL_IT : 37|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_W_PL_BV : 38|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_W_C_VOR : 36|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_WDT : 19|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_T_TR : 11|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_T_POW : 13|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_T_EXT3 : 8|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_T_EXT2 : 9|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_T_EXT1 : 10|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_T_DIO : 12|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_T_C : 14|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_SDT_CT : 26|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_SDT_BV : 28|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_SDT_BT : 29|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_SDT_AH : 27|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_SC : 4|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_P_OM : 3|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_P_MV : 2|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_OOV : 7|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_OF : 1|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_NV_CRC : 22|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_MOV_II : 5|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_MOV_I : 6|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_MF : 0|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_INIT : 18|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_F_CRC : 23|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_ES_CRC : 21|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_EP_CRC : 20|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_C_TX : 31|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_C_TO : 17|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_C_RX : 30|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_C_OFF : 16|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_E_B_P : 15|1@0+ (1,0) [0|1] ""  Control
+
+BO_ 1555 NLG5_TEMP: 8 NLG5
+ SG_ NLG5_TMP_EXT3 : 55|16@0- (0.1,0) [-40|300] "°C"  Control
+ SG_ NLG5_TMP_EXT1 : 23|16@0- (0.1,0) [-40|300] "°C"  Control
+ SG_ NLG5_TEMP_EXT2 : 39|16@0- (0.1,0) [-40|300] "°C"  Control
+ SG_ NLG5_P_TMP : 7|16@0- (0.1,0) [-40|300] "°C"  Control
+
+BO_ 1554 NLG5_ACT_II: 8 NLG5
+ SG_ NLG5_S_MC_M_PI : 23|8@0+ (0.1,0) [0|20] "A"  Control
+ SG_ NLG5_S_MC_M_CP : 7|16@0+ (0.1,0) [0|100] "A"  Control
+ SG_ NLG5_OC_BO : 55|16@0+ (0.01,0) [0|50] "A"  Control
+ SG_ NLG5_AHC_EXT : 39|16@0- (0.01,0) [-327.68|327.67] "Ah"  Control
+ SG_ NLG5_ABV : 31|8@0+ (0.1,0) [0|25] "V"  Control
+
+BO_ 1553 NLG5_ACT_I: 8 NLG5
+ SG_ NLG5_OV_ACT : 39|16@0+ (0.1,0) [0|1000] "V"  Control
+ SG_ NLG5_OC_ACT : 55|16@0- (0.01,0) [0|150] "A"  Control
+ SG_ NLG5_MV_ACT : 23|16@0+ (0.1,0) [0|500] "V"  Control
+ SG_ NLG5_MC_ACT : 7|16@0+ (0.01,0) [0|50] "A"  Control
+
+BO_ 1552 NLG5_ST: 4 NLG5
+ SG_ NLG5_S_WAR : 5|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_UM_II : 1|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_UM_I : 2|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_HE : 7|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_T_TR : 17|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_T_POW : 19|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_T_DIO : 18|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_T_CPRIM : 20|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_T_BATT : 16|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_PMAX : 8|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_PI : 10|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_OV : 13|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_OC_MAX : 22|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_OC : 12|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_MO_MAX : 21|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_MC_MAX : 23|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_MC : 11|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_L_CP : 9|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_FAN : 4|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_EUM : 3|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_ERR : 6|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_CP_DT : 0|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_BPD_II : 14|1@0+ (1,0) [0|1] ""  Control
+ SG_ NLG5_S_BPD_I : 15|1@0+ (1,0) [0|1] ""  Control
+
+BO_ 1560 NLG5_CTL: 7 Control
+ SG_ NLG5_OV_COM : 31|16@0+ (0.1,0) [0|1000] "V"  NLG5
+ SG_ NLG5_MC_MAX : 15|16@0+ (0.1,0) [0|50] "A"  NLG5
+ SG_ NLG5_C_C_EN : 7|1@0+ (1,0) [0|1] ""  NLG5
+ SG_ NLG5_OC_COM : 47|16@0+ (0.1,0) [0|150] "A"  NLG5
+ SG_ NLG5_C_CP_V : 5|1@0+ (1,0) [0|1] ""  NLG5
+ SG_ NLG5_C_C_EL : 6|1@0+ (1,0) [0|1] ""  NLG5
+
+
+
+CM_ SG_ 1556 NLG5_W_PL_MV "Output power limited by low mains voltage";
+CM_ SG_ 1556 NLG5_W_PL_IT "Output power limited by charger internal overtemperature";
+CM_ SG_ 1556 NLG5_W_PL_BV "Output power limited by low battery voltage";
+CM_ SG_ 1556 NLG5_W_C_VOR "Commanded value is out of specified range; max or min applicable value is assumed instead";
+CM_ SG_ 1556 NLG5_E_WDT "Internal Watchdog Timeout";
+CM_ SG_ 1556 NLG5_E_T_TR "Temperature sensor for transformer defective";
+CM_ SG_ 1556 NLG5_E_T_POW "Temperature sensor for prim power stage defective";
+CM_ SG_ 1556 NLG5_E_T_EXT3 "Ext. temperature sensor 3 defective (if enabled)";
+CM_ SG_ 1556 NLG5_E_T_EXT2 "Ext. temperature sensor 2 defective (if enabled)";
+CM_ SG_ 1556 NLG5_E_T_EXT1 "Ext. temperature sensor 1 defective (if enabled)";
+CM_ SG_ 1556 NLG5_E_T_DIO "Temperature sensor for diodes defective";
+CM_ SG_ 1556 NLG5_E_T_C "Temperature sensor for prim capacitor defective";
+CM_ SG_ 1556 NLG5_E_SDT_CT "Emergency Shutdown Threshold 'Charging Time' is exceeded; see ChargeStar help section 'protective features';  error can only be cleared by cycling power ON-OFF-ON";
+CM_ SG_ 1556 NLG5_E_SDT_BV "Emergency Shutdown Threshold 'Battery Voltage' is exceeded; see ChargeStar help section 'protective features';  error can only be cleared by cycling power ON-OFF-ON";
+CM_ SG_ 1556 NLG5_E_SDT_BT "Emergency Shutdown Threshold 'Battery Temperature' is exceeded; see ChargeStar help section 'protective features';  error can only be cleared by cycling power ON-OFF-ON";
+CM_ SG_ 1556 NLG5_E_SDT_AH "Emergency Shutdown Threshold 'Amp Hours' is exceeded; see ChargeStar help section 'protective features';  error can only be cleared by cycling power ON-OFF-ON";
+CM_ SG_ 1556 NLG5_E_SC "power stage short circuit condition detected; error can only be cleared by cycling power ON-OFF-ON";
+CM_ SG_ 1556 NLG5_E_P_OM "plausibility battery output voltage measurement wrong";
+CM_ SG_ 1556 NLG5_E_P_MV "plausibility mains voltage measurement wrong";
+CM_ SG_ 1556 NLG5_E_OOV "battery output overvoltage; error can only be cleared by cycling power ON-OFF-ON 
+";
+CM_ SG_ 1556 NLG5_E_OF "output fuse defective";
+CM_ SG_ 1556 NLG5_E_NV_CRC "NVSRAM check sum failure; contains most of the scaling & calibration values, CAN ID's and  charging profile etc.";
+CM_ SG_ 1556 NLG5_E_MOV_II "Mains overvoltage 2 detected";
+CM_ SG_ 1556 NLG5_E_MOV_I "Mains overvoltage 1 detected";
+CM_ SG_ 1556 NLG5_E_MF "Mains fuse defective";
+CM_ SG_ 1556 NLG5_E_INIT "Initialization error";
+CM_ SG_ 1556 NLG5_E_F_CRC "Flash memory checksum failure";
+CM_ SG_ 1556 NLG5_E_ES_CRC "Sys EEPROM checksum failure";
+CM_ SG_ 1556 NLG5_E_EP_CRC "Pow EEPROM checksum failure";
+CM_ SG_ 1556 NLG5_E_C_TX "CAN transmit buffer >127";
+CM_ SG_ 1556 NLG5_E_C_TO "CAN timeout, no control message received for >300ms";
+CM_ SG_ 1556 NLG5_E_C_RX "CAN receiver buffer >127";
+CM_ SG_ 1556 NLG5_E_C_OFF "CAN off, transmit buffer >255";
+CM_ SG_ 1556 NLG5_E_B_P "wrong battery polarity;  error can only be cleared by cycling power ON-OFF-ON";
+CM_ SG_ 1555 NLG5_TMP_EXT3 "Value of external battery temperature sensor #3 (if connected and enabled)";
+CM_ SG_ 1555 NLG5_TMP_EXT1 "Value of external battery temperature sensor #1 (if connected and enabled)";
+CM_ SG_ 1555 NLG5_TEMP_EXT2 "Value of external battery temperature sensor #2 (if connected and enabled)";
+CM_ SG_ 1555 NLG5_P_TMP "Power stage temperature";
+CM_ SG_ 1554 NLG5_S_MC_M_PI "Value of mains current limit, commanded by the 'power indicator' (PI) analog input signal";
+CM_ SG_ 1554 NLG5_S_MC_M_CP "Value of mains current limit, commanded by the control pilot (SAE J1772) signal";
+CM_ SG_ 1554 NLG5_OC_BO "output current of the booster (if one is present and active)";
+CM_ SG_ 1554 NLG5_AHC_EXT "Charge balance obtained via  Ext. Ah counter connected to DI1 / DI2";
+CM_ SG_ 1554 NLG5_ABV "Aux battery voltage";
+CM_ SG_ 1553 NLG5_OV_ACT "Actual battery output voltage";
+CM_ SG_ 1553 NLG5_OC_ACT "output current to the battery";
+CM_ SG_ 1553 NLG5_MV_ACT "Actual mains voltage";
+CM_ SG_ 1553 NLG5_MC_ACT "Actual mains current";
+CM_ SG_ 1552 NLG5_S_WAR "Warning condition on, i.e. charging power limited due to any limiting condition; red LED is blinking";
+CM_ SG_ 1552 NLG5_S_UM_II "US mains level 2 (240VAC / 60Hz) detected";
+CM_ SG_ 1552 NLG5_S_UM_I "US mains level 1 (120VAC / 60Hz) detected";
+CM_ SG_ 1552 NLG5_S_HE "Indicates if hardware enabled, i.e. a hi or lo signal is fed to the 'Power On' pin (pin3 of control connector)";
+CM_ SG_ 1552 NLG5_S_L_T_TR "Output power limited by temperature of transformer";
+CM_ SG_ 1552 NLG5_S_L_T_POW "Output power limited by temperature of power stage";
+CM_ SG_ 1552 NLG5_S_L_T_DIO "Output power limited by temperature of diodes";
+CM_ SG_ 1552 NLG5_S_L_T_CPRIM "Output power limited by temperature of primary capacitors";
+CM_ SG_ 1552 NLG5_S_L_T_BATT "Output power limited by battery temperature";
+CM_ SG_ 1552 NLG5_S_L_PMAX "Output power limited by maximum power capability of NLG5";
+CM_ SG_ 1552 NLG5_S_L_PI "Output power limited by analog input 'power indicator' (PI) limit";
+CM_ SG_ 1552 NLG5_S_L_OV "Output power limited by battery output voltage limit";
+CM_ SG_ 1552 NLG5_S_L_OC_MAX "Output power limited by maximum output current capability of NLG5";
+CM_ SG_ 1552 NLG5_S_L_OC "Output power limited by battery output current limit";
+CM_ SG_ 1552 NLG5_S_L_MO_MAX "Output power limited by maximum output voltage capability of NLG5";
+CM_ SG_ 1552 NLG5_S_L_MC_MAX "Output power limited by maximum mains current capability of NLG5";
+CM_ SG_ 1552 NLG5_S_L_MC "Output power limited by mains current limit";
+CM_ SG_ 1552 NLG5_S_L_CP "Output power limited by control pilot signal (SAE J1772)";
+CM_ SG_ 1552 NLG5_S_FAN "Charger cooling fan is active";
+CM_ SG_ 1552 NLG5_S_EUM "European mains input detected (230V, 50Hz)";
+CM_ SG_ 1552 NLG5_S_ERR "An error has been detected, red LED is ON, no power is output";
+CM_ SG_ 1552 NLG5_S_CP_DT "Control pilot signal (SAE J1772) detected ";
+CM_ SG_ 1552 NLG5_S_BPD_II "Bypass detection bit 2; 00: no bypass, 01: DC bypass detected, 10:AC bypass in phase, 11: AC bypass not in phase";
+CM_ SG_ 1552 NLG5_S_BPD_I "Bypass detection bit 1; 00: no bypass, 01: DC bypass detected, 10:AC bypass in phase, 11: AC bypass not in phase";
+CM_ SG_ 1560 NLG5_OV_COM "Desired voltage to be output to the battery. Must always contain a valid value in order to keep on charging.";
+CM_ SG_ 1560 NLG5_MC_MAX "Maximum current to be drawn from the mains outlet, usually 16A. Must always contain a valid value in order to keep on charging.";
+CM_ SG_ 1560 NLG5_C_C_EN "Must be ON to enable power stage of the charger";
+CM_ SG_ 1560 NLG5_OC_COM "Desired battery current. Must always contain a valid value in order to keep on charging.";
+CM_ SG_ 1560 NLG5_C_CP_V "special signal to tell a charging station equipped with the Control Pilot interface (SAE J1772) to switch on the facility's ventilation (in order to get rid of battery gases like hydrogen, e.g.)";
+CM_ SG_ 1560 NLG5_C_C_EL "cycle this value 0-1-0 to clear all latched charger errors ";
+BA_DEF_  "Bus Speed" STRING ;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "Bus Speed" "500k";
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "DBName" "CANTemplate";
