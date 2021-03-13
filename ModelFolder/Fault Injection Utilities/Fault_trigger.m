@@ -1,0 +1,20 @@
+CycleLength=d1;
+Fault_Trigger.Fault= xlsread('Fault_Trigger.xlsx','Fault');
+time= Fault_Trigger.Fault(:,1);
+APP_Mismatch=Fault_Trigger.Fault (:,2);
+APP1_OOR=Fault_Trigger.Fault (:,3);
+APP2_OOR=Fault_Trigger.Fault (:,4);
+Brk_Flt=Fault_Trigger.Fault (:,5);
+KeyPos_Flt=Fault_Trigger.Fault (:,6);
+PRNDL_Flt=Fault_Trigger.Fault (:,7);
+LossCAN=Fault_Trigger.Fault (:,8);
+MotTrqMismatch=Fault_Trigger.Fault (:,9);
+MotDirMismatch=Fault_Trigger.Fault (:,10);
+EngTrqMismatch=Fault_Trigger.Fault (:,11);
+MotOverTemp=Fault_Trigger.Fault (:,12);
+MCUOverTemp=Fault_Trigger.Fault (:,13);
+EngOverTemp=Fault_Trigger.Fault (:,14);
+ESSOverTemp=Fault_Trigger.Fault (:,15);
+ClutchEngag=Fault_Trigger.Fault (:,16);
+RegenFault=zeros(CycleLength,1);
+
